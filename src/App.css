@@ -1,0 +1,86 @@
+ul,
+ol {
+	max-width: 200px;
+	width: 100%;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul li,
+ol li {
+	font-size: 18px;
+	line-height: 38px;
+	font-weight: 500;
+	text-align: left;
+}
+
+table {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table th,
+table td {
+	border: 1px solid #404040;
+	padding: 10px;
+}
+
+table td:first-child {
+	text-align: center;
+}
+
+table td {
+	text-align: left;
+}
+
+h2 {
+	font-size: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.buttons-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	max-width: 200px;
+	width: 100%;
+	background-color: #ce181f;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #991318;
+}
+
+.lesson {
+	text-align: center;
+	padding: 60px 0;
+}
+
+.lesson:not(:last-child) {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.lesson--1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 700;
+}
