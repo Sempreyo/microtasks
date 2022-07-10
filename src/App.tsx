@@ -6,6 +6,7 @@ import {CarsType} from "./lessons/lesson-2/Cars";
 import {Lesson3} from "./lessons/Lesson3";
 import {Lesson4} from "./lessons/Lesson4";
 import {Lesson5} from "./lessons/Lesson5";
+import {Lesson6} from './lessons/Lesson6';
 
 function App() {
 	/**
@@ -33,6 +34,7 @@ function App() {
 			<Lesson3/>
 			<Lesson4/>
 			<Lesson5/>
+			<Lesson6/>
 		</>
 	);
 }
