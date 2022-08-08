@@ -1,0 +1,47 @@
+h3 {
+	text-align: left;
+}
+
+.taskItem {
+	display: flex;
+	align-items: center;
+}
+
+input[type='text'] {
+	max-width: 200px;
+	width: 100%;
+	height: 40px;
+	padding: 6px 10px;
+	box-sizing: border-box;
+}
+
+.tasksList {
+	margin: 20px 0;
+}
+
+.addTask,
+.removeTask {
+	max-width: 44px;
+	height: 40px;
+	padding: 0;
+	margin: 0 0 0 10px;
+}
+
+.removeTask {
+	max-width: 25px;
+	height: 25px;
+	line-height: 23px;
+}
+
+.filter {
+	display: flex;
+}
+
+.filter button {
+	width: auto;
+	margin: 0;
+}
+
+.filter button + button {
+	margin-left: 10px;
+}

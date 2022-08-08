@@ -1,0 +1,27 @@
+.IndexTodolist {
+  display: flex;
+  text-align: left;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.IndexTodolist > div {
+  margin-right: 50px;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
